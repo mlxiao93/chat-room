@@ -1,0 +1,10 @@
+<div id="app">
+  <h3>chat room</h3>
+  <ul>
+    <li></li>
+  </ul>
+  <form @submit.prevent="sendMessage">
+    <input type="text" autocomplete="off" v-model="message">
+    <button>Send</button>
+  </form>
+</div>
